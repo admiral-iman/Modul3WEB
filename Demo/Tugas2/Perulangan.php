@@ -1,15 +1,15 @@
 <?php
 
-// Definisikan fungsi untuk mencetak bilangan
+
 function cetakBilangan($n) {
-    // Memastikan bahwa input adalah bilangan bulat positif
+  
     if ($n <= 0 || !is_numeric($n) || intval($n) != $n) {
         echo "Masukkan bilangan bulat positif.\n";
         return;
     }
 
     for ($i = 1; $i <= $n; $i++) {
-        // Memeriksa kondisi
+     
         if ($i % 4 == 0 && $i % 6 == 0) {
             echo "Pemrograman Website 2024\n";
         } elseif ($i % 5 == 0) {
